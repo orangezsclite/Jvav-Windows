@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+.vs/Jvav/v16/Browse.VC.opendb
+.vs/Jvav/v16/ipch/AutoPCH/14bc4796dd4ad06b/JVAV.ipch
+.vs/Jvav/v16/Browse.VC.db
+.vs/Jvav/v16/.suo
