@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-	system("del code.jvav.cpp")
+	system("del code.jvav.cpp");
 	cout << "Initializing Program...\n";
 	string language;
 	string command, type, inputcharacter;
