@@ -82,7 +82,7 @@ main:
 		system("start https://github.com/orangezsclite/Jvav-Windows/blob/master/how_to_use_jvav.md");
 		goto main;
 	} else if (command == "code") {
-		cout << "The developers is still writing this feature!";
+		cout << "The developers is still writing this feature!\n";
 		goto main;
 	} else {
 		cout << "Unknown command\n";
@@ -156,7 +156,7 @@ cn_main:
 		system("start https://github.com/orangezsclite/Jvav-Windows/blob/master/how_to_use_jvav_cn.md");
 		goto cn_main;
 	} else if (command == "编写") {
-		cout << "开发人员们正在编写这个Feature！";
+		cout << "开发人员们正在编写这个Feature！\n";
 		goto cn_main;
 	} else {
 		cout << "未知的命令！\n";
