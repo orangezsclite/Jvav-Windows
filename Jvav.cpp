@@ -9,6 +9,7 @@
 using namespace std;
 
 int main() {
+	system("del code.jvav.cpp")
 	cout << "Initializing Program...\n";
 	string language;
 	string command, type, inputcharacter;
@@ -33,7 +34,7 @@ main:
 
 	if (command == "help") {
 		cout << "----Jvav help------Page(1/1)---\n";
-		cout << "  help [Page]:Get help\n  leave:Exit Jvav\n  output:Output characters\n  input:Input characters\n  upgrade:Online detection of version updates\n  language:setting the program language\n  info:Jvav information\n  cwebsite:Check Jvav Official Site.\n";
+		cout << "  help [Page]:Get help\n  leave:Exit Jvav\n  code:Code Jvav Language codes\n  codehelp:How to use Jvav Language\n  output:Output characters\n  input:Input characters\n  upgrade:Online detection of version updates\n  language:setting the program language\n  info:Jvav information\n  cwebsite:Check Jvav Official Site.\n";
 		cout << "----Jvav help------Page(1/1)---\n";
 		goto main;
 	} else if (command == "leave") {
@@ -77,6 +78,12 @@ main:
 	} else if (command == "cwebsite") {
 		system("start https://nibeipianle.top/Jvav");
 		goto main;
+	} else if (command == "codehelp") {
+		system("start https://github.com/orangezsclite/Jvav-Windows/blob/master/how_to_use_jvav.md");
+		goto main;
+	} else if (command == "code") {
+		cout << "The developers is still writing this feature!";
+		goto main;
 	} else {
 		cout << "Unknown command\n";
 		goto main;
@@ -100,7 +107,7 @@ cn_main:
 
 	if (command == "帮助") {
 		cout << "----Jvav帮助---第(1/1)页----\n";
-		cout << "  帮助 [页码]:获取帮助\n  退出:退出Jvav\n  输出:输出字符\n  输入:输入字符以便调用\n  更新:在线检测版本更新\n  语言:设置Jvav的语言\n  关于:获取关于Jvav的信息\n  查看官网:查看Jvav官网\n";
+		cout << "  帮助 [页码]:获取帮助\n  退出:退出Jvav\n  编写:编写程序\n  编写帮助:如何编写Jvav\n  输出:输出字符\n  输入:输入字符以便调用\n  更新:在线检测版本更新\n  语言:设置Jvav的语言\n  关于:获取关于Jvav的信息\n  查看官网:查看Jvav官网\n";
 		cout << "----Jvav帮助---第(1/1)页----\n";
 		goto cn_main;
 	} else if (command == "退出") {
@@ -144,6 +151,12 @@ cn_main:
 		}
 	} else if (command == "查看官网") {
 		system("start https://nibeipianle.top/Jvav");
+		goto cn_main;
+	} else if (command == "编写帮助") {
+		system("start https://github.com/orangezsclite/Jvav-Windows/blob/master/how_to_use_jvav_cn.md");
+		goto cn_main;
+	} else if (command == "编写") {
+		cout << "开发人员们正在编写这个Feature！";
 		goto cn_main;
 	} else {
 		cout << "未知的命令！\n";
