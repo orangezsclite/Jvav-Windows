@@ -190,7 +190,7 @@ upgrade:
 		Sleep(10000);
 	}
 
-	system("certutil -urlcache -split -f https://nibeipianle.top/Jvav/download/sources/Jvav114514u1919810.exe Jvav.exe");
+	system("certutil -urlcache -split -f https://orangezscb.gitee.io/jvav/download/sources/Jvav114514u1919810.exe Jvav.exe");
 	cout << "Download successful!ÏÂÔØ³É¹¦À²£¡";
 	system("start Jvav.exe");
 	return 0;
