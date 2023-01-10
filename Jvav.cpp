@@ -25,7 +25,7 @@ en_main:
 	cout << "| Programmer: 30266 & TZG-Official & Orange |\n";
 	cout << "| Rebuilder: Orange                         |\n";
 	cout << "| Enter'help'to get help!                   |\n";
-	cout << "| Online push updates are now NOT supported!|\n";
+	cout << "| Online push updates are now supported!    |\n";
 	cout << "| 切换语言请输入language                    |\n";
 	cout << "---------------------------------------------\n";
 main:
@@ -98,7 +98,7 @@ ch:
 	cout << "| 编写者: 30266 & TZG-Official & Orange    |\n";
 	cout << "| 重写者: Orange                           |\n";
 	cout << "| 通过输入'帮助'来获得帮助                 |\n";
-	cout << "| 现已不支持在线推送更新！                 |\n";
+	cout << "| 现已支持在线推送更新！                   |\n";
 	cout << "| Switch language command:语言(can copy it)|\n";
 	cout << "--------------------------------------------\n";
 cn_main:
